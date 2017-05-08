@@ -24,7 +24,7 @@ public class ttussntpt extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Tính T?ng - U?c S? - S? Nguyên T? - Phân Tích");
+        jLabel1.setText("TÃ­nh T?ng - U?c S? - S? NguyÃªn T? - PhÃ¢n TÃ­ch");
         jLabel1.setMaximumSize(new java.awt.Dimension(500, 20));
         jLabel1.setMinimumSize(new java.awt.Dimension(500, 20));
         jLabel1.setPreferredSize(new java.awt.Dimension(500, 20));
@@ -59,7 +59,7 @@ public class ttussntpt extends javax.swing.JFrame {
         });
 
         buttonGroup1.add(songuyento);
-        songuyento.setText("S? Nguyên T?");
+        songuyento.setText("S? NguyÃªn T?");
         songuyento.setName("songuyento"); // NOI18N
         songuyento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -68,7 +68,7 @@ public class ttussntpt extends javax.swing.JFrame {
         });
 
         buttonGroup1.add(phantich);
-        phantich.setText("Phân tích(<14 thì run oke >14 sai updating)");
+        phantich.setText("PhÃ¢n tÃ­ch(<14 thÃ¬ run oke >14 sai updating)");
         phantich.setName("phantich"); // NOI18N
         phantich.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,7 +201,7 @@ public class ttussntpt extends javax.swing.JFrame {
                     dem++;
                 }
             }
-            txtKQ.setText(n+" có "+dem + " u?c s?");
+            txtKQ.setText(n+" cÃ³ "+dem + " u?c s?");
         }
         if(songuyento.isSelected())
         {
@@ -213,7 +213,7 @@ public class ttussntpt extends javax.swing.JFrame {
             }
             if(n==1 || n==2)
             {  
-                txtKQ.setText(n+" là SNT");
+                txtKQ.setText(n+" lÃ  SNT");
             }
             if(n>2)
             {
@@ -226,9 +226,9 @@ public class ttussntpt extends javax.swing.JFrame {
                 }
                 if(j==1)
                 
-                    txtKQ.setText(n+" ko là SNT");
+                    txtKQ.setText(n+" ko lÃ  SNT");
                 else
-                    txtKQ.setText(n+" là SNT");
+                    txtKQ.setText(n+" lÃ  SNT");
             }
             
              
